@@ -10,6 +10,7 @@ namespace RepositoryWithNinject
         private static IKernel _kernel;
         static void Main(string[] args)
         {
+            // test for jenkins
             NinjectAppStart();
             //var conn = Connection.GetInstance();
             var emp = new Employee { Name = "Rudy" };
