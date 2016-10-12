@@ -11,6 +11,7 @@ namespace RepositoryWithNinject
         static void Main(string[] args)
         {
             // test for jenkins
+            // test for jenkins
             NinjectAppStart();
             //var conn = Connection.GetInstance();
             var emp = new Employee { Name = "Rudy" };
