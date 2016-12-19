@@ -9,6 +9,7 @@ namespace NinjectSecondApp
     {
         public static void Main()
         {
+			//test
             StandardKernel _kernel = new StandardKernel();
             _kernel.Load(Assembly.GetExecutingAssembly());
             IProduct objProduct = _kernel.Get<IProduct>();
